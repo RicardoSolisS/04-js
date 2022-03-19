@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex de Rucardo</title>
+    <link rel="stylesheet" href="./pokedex.css">
+
+</head>
+
+<body>
+
+
+    <section>
+
+                <img src="./pokeball.png" alt="Pokemon" id="pokeImg">
+                <input type="text" name="" id="pokeName" placeholder="Ingresa nombre o n&uacute;mero de pokemon">
+                <button onclick="fetchPokemon()" class="btn">Buscar</button><br>
+                    <p id="msgIn" style="display: none;">Ingresa información!</p>
+
+                <article id="infoPokemon" style="display: none;">
+                            <h4 id="lbNombre"></h4>
+                            <label for="" class="txt-title">Tipo Pokemon: </label>
+                            <label for="" id="lbTipo" class="txt-bold"></label>
+
+                            <p></p><label for="" class="txt-title">Estad&iacute;sticas </label>
+
+                                    <label for="" id="stat1"></label>
+
+                                    <div class="progress">
+                                        <div id="progress1" class="progress-bar" role="progressbar"></div>
+                                    </div>
+
+
+
+                                    <label for="" id="stat2"></label>
+
+                                    <div class="progress">
+                                        <div id="progress2" class="progress-bar" role="progressbar"></div>
+                                    </div>
+
+
+
+                                    <label for="" id="stat3"></label>
+
+                                    <div class="progress">
+                                        <div id="progress3" class="progress-bar" role="progressbar"></div>
+
+                                </div>
+
+
+                                    <label for="" id="stat4"></label>
+
+                                    <div class="progress">
+                                        <div id="progress4" class="progress-bar" role="progressbar"></div>
+                                    </div>
+
+
+                                    <label for="" id="stat5"></label>
+
+                                    <div class="progress">
+                                        <div id="progress5" class="progress-bar" role="progressbar"></div>
+                                    </div>
+
+
+
+
+                            <label for="" class="txt-title">Movimientos </label>
+                            <div class="div-movs">
+                                <ul id="listMovs">
+
+                                </ul>
+                            </div>
+
+
+                </article>
+
+
+
+    </section>
+    <p id="gracias">Creditos a <a href="https://github.com/LuisEsquivel27">Luis Esquivel</a> por que me basé en su código para esta práctica</p>
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+
+</html>
